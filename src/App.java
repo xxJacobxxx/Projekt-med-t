@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -20,6 +21,10 @@ public class App {
         System.out.println(tal3+"/"+tal4+"="+kvot);
         int produkt = tal1*tal2;
         System.out.println(tal1+"*"+tal2+"="+produkt);
-        
+        System.out.println("Dina som jag gav dig är: "+tal1+" och "+tal2);
+        System.out.println("svaret är: "+tal1%tal2);
+        System.out.println("Dina tal är: "+tal3+" och "+tal4);
+        System.out.print("Svaret: ");
+        System.out.print(Math.pow(tal3, tal4));
     }
 }
